@@ -1,0 +1,1467 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 10.45, 1.5, 4.2, },
+		bbMin = { -10.45, -1.5, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.7661581039429, 1.5543934106827, 2.6876463890076, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/ezw36/rumpf_c_43.mtl", },
+						mesh = "vehicle/waggon/ezw36/rumpf_kl3_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/puffer_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/unterbau_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/schurze_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/fenster_kl2_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
+                    },
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
+                    },
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.745, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.745, 1.131, 2.029, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/innen.mtl", },
+						mesh = "vehicle/waggon/ezw36/innen_kl2_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/mobel.mtl", },
+						mesh = "vehicle/waggon/ezw36/mobel_kl3_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_offen_lod0.msh", --inner forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod0.msh", --back forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod0.msh", --front forward
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_offen_lod0.msh", --inner backward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod0.msh", --front backward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod0.msh", --back backward
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/waggon/ezw36/schlusslicht2_lod0.msh", --back forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 75,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/ezw36/rumpf_c_43.mtl", },
+						mesh = "vehicle/waggon/ezw36/rumpf_kl3_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/puffer_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/unterbau_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/schurze_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/fenster_kl2_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
+                    },
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
+                    },
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.745, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.745, 1.131, 2.029, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/innen.mtl", },
+						mesh = "vehicle/waggon/ezw36/innen_kl2_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_offen_lod1.msh", --inner forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod1.msh", --back forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod1.msh", --front forward
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_offen_lod1.msh", --inner backward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod1.msh", --front backward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg2_buegel_vorne_lod1.msh", --back backward
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/waggon/ezw36/schlusslicht2_lod0.msh", --back forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 75,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/ezw36/rumpf_c_43.mtl", },
+						mesh = "vehicle/waggon/ezw36/rumpf_kl3_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/fenster_kl2_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
+                    },
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
+                    },
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rrechts.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.745, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_right = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_right = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.236, -1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.745, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_rechts_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.236, 1.131, 2.029, 1, },
+					},
+					{
+						animations = {
+							close_doors_left = {
+								forward = false,
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+							open_doors_left = {
+								params = {
+									id = "vehicle/waggon/ezw36/tuer_rlinks.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/waggon/ezw36/rumpf_b_43.mtl", "vehicle/waggon/ezw36/fenster.mtl", },
+						mesh = "vehicle/waggon/ezw36/tuer_links_lod0.msh",
+						name = "rumpf",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.745, 1.131, 2.029, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/ezw36/anbau.mtl", },
+						mesh = "vehicle/waggon/ezw36/balg_lod2.msh", --inner forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/waggon/ezw36/schlusslicht2_lod0.msh", --back forward
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/ezw36/rumpf_c_43.mtl", },
+						mesh = "vehicle/waggon/ezw36/rumpf_kl3_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
+                    },
+					{
+						children = {							
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
+				            },	
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
+				            },		
+							{
+					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
+					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
+					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
+				            },	
+                        },
+				        name = "bogie",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 1000,
+			visibleTo = 2500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1944,
+			yearTo = 1947,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("ezw_44c44_name"),
+            description = _("eilzug_desc"),
+		},
+		maintenance = {
+			runningCosts = -1,
+			lifespan = 29220
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/waggon/ezw36/rad_lod0.msh", },
+					backBackwardParts = { 29 },
+                    backForwardParts = { 25, 30 },
+					frontBackwardParts = { 28 },
+					frontForwardParts = { 26 },
+					innerBackwardParts = { 27 },
+					innerForwardParts = { 24 },
+				},
+				{
+					axles = { "vehicle/waggon/ezw36/rad_lod1.msh", },
+					backBackwardParts = {  28 },
+                    backForwardParts = { 24, 29 },
+					frontBackwardParts = { 27 },
+					frontForwardParts = { 25 },
+					innerBackwardParts = { 26 },
+					innerForwardParts = { 23 },
+				},
+                {
+					axles = { "vehicle/waggon/ezw36/rad_lod2.msh", },
+					backBackwardParts = { },
+                    backForwardParts = { 20 },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+                },
+                {
+					axles = { "vehicle/waggon/ezw36/rad_lod2.msh", },
+					backBackwardParts = { },
+                    backForwardParts = {  },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+                },
+			},
+			engines = { },
+			soundSet = {
+				name = "mw_altGz",
+			},
+			topSpeed = 38.88888888,
+			weight = 31,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "RAIL",
+			seats = {
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.9, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.9, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.9, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.9, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.5, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.5, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, -0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.1, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.1, -0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.8, -1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.8, -0.7, 1.3, 1, },
+				},
+
+
+                ----
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.3, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5, 0.7, 1.3, 1, },
+				},
+
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.9, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.9, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.0, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 4.5, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.5, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.9, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.9, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.9, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.2, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.4, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -0.2, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.0, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.8, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.5, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.5, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.3, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.1, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.1, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.8, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.8, 0.7, 1.3, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.5, 0.7, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, 1.1, 1.3, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.4, 0.7, 1.3, 1, },
+				},
+            },
+        },
+		transportVehicle = {
+			carrier = "RAIL",
+			capacities = {
+				{
+                    type = "PASSENGERS",
+                    capacity = 72,
+                },
+			},
+			loadSpeed = 1,
+			multipleUnitOnly = false,
+			groupFileName = "vehicle/waggon/ezw36/menu_ezw44.mdl",
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end
