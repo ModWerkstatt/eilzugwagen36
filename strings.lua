@@ -4,7 +4,7 @@ return {
 	de = {
 
 		["mod_name"] = "Eilzugwagen Gruppe 36 und 44",
-		["mod_desc"] = "Ab 1935 wurden Nachfolgebauarten für die Wagen der Verwendungsgruppe 30 entwickelt. Die geschweißte Bauart des Wagenkastens war nunmehr Standard. Um den Reisenden eine bessere Aussicht zu ermöglichen, wurden die Fensterunterkante tiefergelegt und die Scheiben um 20 cm verbreitert. Um bei nahezu gleicher Wagenlänge größere Abteile einbauen zu können, wurde in der dritten Klasse auf eine Sitzreihe verzichtet. Der mit Scherengittern gesicherte offene Übergang, die Görlitz-III-leicht-Laufwerke sowie andere Elemente waren mit den vorhergehenden Bauarten identisch. In Dienst gestellt wurden nach den Probebauarten des Jahres 1935 die Serienwagen C4i-36 und BC4i-37. Reine Zweite-Klasse-Wagen wurden nicht mehr beschafft. Zuletzt liefen diese Wagen bei der DB als Bye 667 und AByse 630. Während des Zweiten Weltkriegs kam es unter den Wagenbezeichnungen C4üp-42 (spätere Bye 668) und C4i-43a (spätere Bye 672) zu Nachbestellungen des Wagens dritter Klasse; letztere Bauart wurde als Lazarettwagen ohne Inneneinrichtung abgeliefert. Die geschweißten Eilzugwagen wurden von der DB in die Verwendungsgruppe 36 eingereiht. Durch die Schweißkonstruktion waren die Wagen rund zwei Tonnen leichter als die genieteten.",
+		["mod_desc"] = "Die ab 1928 gebauten Eilzugwagen waren genietet, dagegen wurde Anfang der 1930er Jahre Versuche mit geschweißten Wagenkästen unternommen. Ab 1935 wurden Nachfolgebauarten für die Wagen der Verwendungsgruppe 30 gleich in geschweißter Ausführung entwickelt. Dadurch waren sie rund zwei Tonnen leichter gegenüber ihren Vorgängern und man konnte durch einige Umbauten den Fahrgastkomfort etwas steigern. Die Deutsche Bundesbahn übernahm die Wagen und ordnete sie als Gruppe 36 ein.\nAb der Bauart 39 erhielten die Wagen eine windschnittige Verkleidung mit Schürze was ihnen den Namen Schürzeneilzugwagen einbrachte. Diese Wagen sollten alle älteren Vierachs-Abteilwagen ablösen, wodurch es durch den Krieg aber nicht mehr kam. Einige Wagen wurden als Lazarettwagen umgebaut und genutzt.",
 
         ["ezw36_menu"] = "Eilzugwagen Gruppe 36",
         ["ezw44_menu"] = "Eilzugwagen Gruppe 44",
@@ -57,8 +57,8 @@ return {
 		["ezw_sw36_name"] = "Mitropa Schlafwagen (1936)",
 		["ezw_sw47_name"] = "Mitropa Schlafwagen (1947)",
 
-		["ezw_bam_name"] = "Bamberger Wagen (1953)",
-		["ezw_bam_stw_name"] = "Bamberger Steuerwagen (1953)",
+		["ezw_bam_name"] = "Bamberger Wagen 3. Kl. (1953)",
+		["ezw_bam_stw_name"] = "Bamberger Steuerwagen 3. Kl. (1953)",
 
 		["ezw_w36_name"] = "Halbgepäckwagen 36 (1936)",
 		["ezw_w42_name"] = "Halbgepäckwagen 36 (1942)",
@@ -79,14 +79,14 @@ return {
 		["ezw_44ab74_name"] = "Schürzeneilzugwagen 44 1./2. Kl. (1974)",
 		["ezw_44c44_name"] = "Schürzeneilzugwagen 44 3. Kl. (1944)",
 
-		["ezw_desc"] = "Ab 1935 wurden Nachfolgebauarten für die Wagen der Verwendungsgruppe 30 entwickelt. Die geschweißte Bauart des Wagenkastens war nunmehr Standard. Um den Reisenden eine bessere Aussicht zu ermöglichen, wurden die Fensterunterkante tiefergelegt und die Scheiben um 20 cm verbreitert. Um bei nahezu gleicher Wagenlänge größere Abteile einbauen zu können, wurde in der dritten Klasse auf eine Sitzreihe verzichtet. Der mit Scherengittern gesicherte offene Übergang, die Görlitz-III-leicht-Laufwerke sowie andere Elemente waren mit den vorhergehenden Bauarten identisch. In Dienst gestellt wurden nach den Probebauarten des Jahres 1935 die Serienwagen C4i-36 und BC4i-37. Reine Zweite-Klasse-Wagen wurden nicht mehr beschafft. Zuletzt liefen diese Wagen bei der DB als Bye 667 und AByse 630. Während des Zweiten Weltkriegs kam es unter den Wagenbezeichnungen C4üp-42 (spätere Bye 668) und C4i-43a (spätere Bye 672) zu Nachbestellungen des Wagens dritter Klasse; letztere Bauart wurde als Lazarettwagen ohne Inneneinrichtung abgeliefert. Die geschweißten Eilzugwagen wurden von der DB in die Verwendungsgruppe 36 eingereiht. Durch die Schweißkonstruktion waren die Wagen rund zwei Tonnen leichter als die genieteten.",
+		["ezw_desc"] = "Die ab 1928 gebauten Eilzugwagen waren genietet, dagegen wurde Anfang der 1930er Jahre Versuche mit geschweißten Wagenkästen unternommen. Ab 1935 wurden Nachfolgebauarten für die Wagen der Verwendungsgruppe 30 gleich in geschweißter Ausführung entwickelt. Dadurch waren sie rund zwei Tonnen leichter gegenüber ihren Vorgängern und man konnte durch einige Umbauten den Fahrgastkomfort etwas steigern. Die Deutsche Bundesbahn übernahm die Wagen und ordnete sie als Gruppe 36 ein.\nAb der Bauart 39 erhielten die Wagen eine windschnittige Verkleidung mit Schürze was ihnen den Namen Schürzeneilzugwagen einbrachte. Diese Wagen sollten alle älteren Vierachs-Abteilwagen ablösen, wodurch es durch den Krieg aber nicht mehr kam. Einige Wagen wurden als Lazarettwagen umgebaut und genutzt.",
 
 	},
 
 	en = {
 
-		["mod_name"] = "Express train carriage group 36",
-		["mod_desc"] = "From 1935 onwards, successor designs were developed for the cars in use group 30. The welded design of the car body was now standard. In order to give passengers a better view, the lower edge of the window was lowered and the windows were widened by 20 cm. In order to create larger compartments with almost the same car length In order to be able to install them, there was no row of seats in the third class. The open transition secured with scissor bars, the Görlitz III lightweight running gear and other elements were identical to the previous designs. The test designs were put into service in 1935 Series cars C4i-36 and BC4i-37. Pure second-class cars were no longer procured. Most recently, these cars ran on the DB as Bye 667 and AByse 630. During the Second World War, they came under the car designations C4üp-42 (later Bye 668 ) and C4i-43a (later Bye 672) for repeat orders of the third class car; the latter type was delivered as a hospital car without interior fittings. The welded express train cars were classified by the DB in usage group 36. Due to the welded construction, the wagons were around two tons lighter than the riveted ones.",
+		["mod_name"] = "Express train carriage group 36 and 44",
+		["mod_desc"] = "The express train carriages built from 1928 onwards were riveted, but experiments with welded car bodies were undertaken in the early 1930s. From 1935, successor designs for the wagons in utilisation group 30 were developed in a welded design. As a result, they were around two tonnes lighter than their predecessors and passenger comfort could be improved somewhat through some modifications. The Deutsche Bundesbahn took over the wagons and categorised them as group 36.\nFrom type 39 onwards, the wagons were given a streamlined cladding with an apron, which earned them the name Schürzeneilzugwagen. These wagons were intended to replace all the older four-axle compartment wagons, but the war prevented this from happening. Some wagons were converted and used as hospital wagons.",
 
 
         ["ezw36_menu"] = "Express train carriage group 36",
@@ -140,8 +140,8 @@ return {
 		["ezw_sw36_name"] = "Mitropa sleeping car (1936)",
 		["ezw_sw47_name"] = "Mitropa sleeping car (1947)",
 
-		["ezw_bam_name"] = "Bamberger waggon (1953)",
-		["ezw_bam_stw_name"] = "Bamberger control car (1953)",
+		["ezw_bam_name"] = "Bamberger waggon 3rd class (1953)",
+		["ezw_bam_stw_name"] = "Bamberger control car 3rd class (1953)",
 
 		["ezw_w36_name"] = "Express train half baggage car 36 (1936)",
 		["ezw_w42_name"] = "Express train half baggage car 36 (1942)",
@@ -162,7 +162,7 @@ return {
 		["ezw_44ab74_name"] = "Streamlined express train carriage 44 1st/2nd class (1974)",
 		["ezw_44c44_name"] = "Streamlined express train carriage 44 3rd class (1944)",
 
-		["ezw_desc"] = "From 1935 onwards, successor designs were developed for the cars in use group 30. The welded design of the car body was now standard. In order to give passengers a better view, the lower edge of the window was lowered and the windows were widened by 20 cm. In order to create larger compartments with almost the same car length In order to be able to install them, there was no row of seats in the third class. The open transition secured with scissor bars, the Görlitz III lightweight running gear and other elements were identical to the previous designs. The test designs were put into service in 1935 Series cars C4i-36 and BC4i-37. Pure second-class cars were no longer procured. Most recently, these cars ran on the DB as Bye 667 and AByse 630. During the Second World War, they came under the car designations C4üp-42 (later Bye 668 ) and C4i-43a (later Bye 672) for repeat orders of the third class car; the latter type was delivered as a hospital car without interior fittings. The welded express train cars were classified by the DB in usage group 36. Due to the welded construction, the wagons were around two tons lighter than the riveted ones.",
+		["ezw_desc"] = "The express train carriages built from 1928 onwards were riveted, but experiments with welded car bodies were undertaken in the early 1930s. From 1935, successor designs for the wagons in utilisation group 30 were developed in a welded design. As a result, they were around two tonnes lighter than their predecessors and passenger comfort could be improved somewhat through some modifications. The Deutsche Bundesbahn took over the wagons and categorised them as group 36.\nFrom type 39 onwards, the wagons were given a streamlined cladding with an apron, which earned them the name Schürzeneilzugwagen. These wagons were intended to replace all the older four-axle compartment wagons, but the war prevented this from happening. Some wagons were converted and used as hospital wagons.",
 
 	},
 }
