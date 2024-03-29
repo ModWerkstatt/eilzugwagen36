@@ -46,43 +46,43 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
                     },
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod0.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
@@ -351,43 +351,43 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
                     },
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod1.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
@@ -632,43 +632,43 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
                     },
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
@@ -859,7 +859,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 250,
-			visibleTo = 1000,
+			visibleTo = 500,
 		},
 		{
 			node = {
@@ -871,43 +871,43 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -6.65, 0, 0, 1, },
                     },
 					{
-						children = {							
+						children = {
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/drehgestell_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.78, 1, },
-				            },	
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, -1.56, 0, 0.5, 1, },
-				            },		
+				            },
 							{
 					            materials = { "vehicle/waggon/ezw36/beweglich.mtl", },
 					            mesh = "vehicle/waggon/ezw36/rad_lod2.msh",
 					            transf = { 1.0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 1.56, 0, 0.5, 1, },
-				            },	
+				            },
                         },
 				        name = "bogie",
 				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.65, 0, 0, 1, },
@@ -917,14 +917,14 @@ return {
 				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 			},
 			static = false,
-			visibleFrom = 1000,
-			visibleTo = 2500,
+			visibleFrom = 500,
+			visibleTo = 1250,
 		},
 	},
 	metadata = {
 		availability = {
 			yearFrom = 1953,
-			yearTo = 1959,
+			yearTo = 1956,
 		},
 		cost = {
 			price = -1,
