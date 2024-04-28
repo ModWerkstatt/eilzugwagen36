@@ -65,8 +65,8 @@ return {
 			units = 0,
 		},
 		two_sided = {
-			flipNormal = true,
-			twoSided = true,
+			flipNormal = false,
+			twoSided = false,
 		},
 	},
 	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
