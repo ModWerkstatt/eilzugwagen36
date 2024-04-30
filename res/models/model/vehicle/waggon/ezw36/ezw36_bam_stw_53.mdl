@@ -915,8 +915,8 @@ return {
 				{
 					axles = { "vehicle/waggon/ezw36/rad_lod1.msh", },
 					backBackwardParts = {  },
-                    backForwardParts = { 27 },
-					frontBackwardParts = { 26 },
+                    backForwardParts = { 26 },
+					frontBackwardParts = { 25 },
 					frontForwardParts = {  },
 					innerBackwardParts = {  },
 					innerForwardParts = {  },
