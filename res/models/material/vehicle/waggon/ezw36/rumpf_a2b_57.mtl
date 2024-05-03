@@ -43,7 +43,7 @@ return {
 			type = "TWOD",
 		},
 		map_normal = {
-			fileName = "models/vehicle/waggon/ezw36/1947/rumpf_kl1_normal.dds",
+			fileName = "models/vehicle/waggon/ezw36/1947/rumpf_a2_tur_normal.dds",
 			redGreen = true,
 			type = "TWOD",
 		},
