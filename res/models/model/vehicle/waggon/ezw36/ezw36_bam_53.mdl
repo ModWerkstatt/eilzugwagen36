@@ -932,7 +932,7 @@ return {
 		},
 		description = {
 			name = _("ezw_bam_name"),
-            description = _("eilzug_desc"),
+            description = _("bamberger_desc"),
 		},
 		maintenance = {
 			runningCosts = -1,
